@@ -1,0 +1,5 @@
+library(sna)
+A <- read.csv("/Users/tianzichen/Desktop/matrix.csv", header = FALSE)
+set.seed(10)
+A_matrix=as.matrix(A)
+gplot(A_matrix)
